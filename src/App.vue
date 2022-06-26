@@ -58,7 +58,7 @@
     data: () => ({ drawer: null,
     items: [
           { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
-          { title: 'Index Berita', icon: 'mdi-format-list-checks', to: '/' },
+          { title: 'Index Berita', icon: 'mdi-format-list-checks', to: '/indexBerita' },
           { title: 'About', icon: 'mdi-help-box', to: '/about' },
           { title: 'Login', icon: 'mdi-login-variant', to: '/login' },
         ],
