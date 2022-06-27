@@ -23,10 +23,14 @@
     </div>
 </template>
 <script>
+    const time = Date.now();
+    const today = new Date(time);
 export default {
+
     data: () => ({
         items: [
-            { header: 'Today' },
+            // { header: 'Today' },
+            { header: today.toDateString() },
             {
                 avatar: 'https://cdn.vuetifyjs.com/images/lists/1.jpg',
                 title: 'Brunch this weekend?',
